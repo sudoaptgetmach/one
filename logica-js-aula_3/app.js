@@ -1,14 +1,15 @@
-let numeroSecreto = Math.floor(Math.random() * 20);;
+let numeroSecreto = Math.floor(Math.random() * numeroMax);
+let numeroMax = 1000;
 let chute;
 let tentativas = 1;
 
 while (chute != numeroSecreto) {
 
-    let chute = prompt('Chute um número aleatório entre 1 e 20:');
+    let chute = prompt(`Chute um número aleatório entre 1 e ${numeroSecreto}:`);
 
     console.log(`O número secreto é: ${numeroSecreto}.`);
 
-    if(chute == "sair"){
+    if(chute == 'sair'){
         break;
     } else if (chute < 0 || isNaN(chute)) {
 
