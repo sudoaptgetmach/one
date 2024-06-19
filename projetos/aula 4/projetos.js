@@ -1,4 +1,3 @@
-
 let numeroSecreto = Math.floor(Math.random() * 20);;
 let chute;
 let tentativas = 1;
