@@ -82,3 +82,24 @@ while (1) {
         }
     }
 }
+
+// Crie uma mensagem que informa o usuário sobre o saldo da conta, usando uma template string para incluir o valor do saldo.
+
+let nome = prompt('Qual é o seu nome de usuário?');
+let saldo = prompt('Quanto você deseja depositar?');
+
+
+if(isNaN(saldo)) {
+    alert('Você precisa depositar uma quantia válida.')
+} else { 
+    console.log('***********************');
+    console.log(`Bem-vindo, ${nome}.`);
+    console.log(`Seu saldo é ${saldo}.`);
+    console.log('***********************');
+}
+
+// Peça ao usuário para inserir seu nome usando prompt. Em seguida, mostre um alerta de boas-vindas usando esse nome.
+
+let bemvindo = prompt('Qual é seu nome?');
+
+alert(`Bem-vindo, ${bemvindo}!`);
