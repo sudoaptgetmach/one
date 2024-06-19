@@ -1,15 +1,17 @@
-alert('Olá mundo. :)');
 
-let numeroSecreto = 29;
+let numeroSecreto = Math.floor(Math.random() * 20);;
 let chute;
 let tentativas = 1;
 
-
 while (chute != numeroSecreto) {
 
-    let chute = prompt('Escolha um número entre 1 e 30');
+    let chute = prompt('Chute um número aleatório entre 1 e 20:');
 
-    if (chute < 0 || isNaN(chute)) {
+    console.log(`O número secreto é: ${numeroSecreto}.`);
+
+    if(chute == "sair"){
+        break;
+    } else if (chute < 0 || isNaN(chute)) {
 
         tentativas = tentativas - 1;
         alert('Você deve inserir um chute válido.')
@@ -19,15 +21,15 @@ while (chute != numeroSecreto) {
     
     if (chute == numeroSecreto) {
 
+        let palavraTentativa = tentativas > 1 ? 'tentativas' : 'tentativa'
+        alert(`Parabéns! Você acertou em ${tentativas} ${palavraTentativa}!\nO número secreto era ${numeroSecreto}!`);
         tentativas++;
-        alert(`Tentativa ${tentativas} \nParabéns! Você acertou!\nO número secreto era ${numeroSecreto}!`);
         break;
-    
+
     } else {
     
         tentativas++;
         alert(`Tentativa ${tentativas}\nVocê errou!`);
-        console.log(`O número secreto era: ${numeroSecreto}.`);
     
         if (chute > numeroSecreto) {
     
