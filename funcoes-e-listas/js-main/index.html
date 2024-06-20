@@ -21,11 +21,13 @@
                 <div class="container__texto">
                     <h1></h1>
                     <p class="texto__paragrafo"></p>
-                    <input type="number" min="1" max="200" class="container__input">
+                    <label>
+                        <input type="number" min="1" max="200" class="container__input">
+                    </label>
                 </div>
                 <div class="chute container__botoes">
                     <button onclick="verificarChute()" class="container__botao">Chutar</button>
-                    <button onclick="" id="reiniciar" class="container__botao" disabled>Novo jogo</button>
+                    <button onclick="reiniciarJogo()" id="reiniciar" class="container__botao" disabled>Novo jogo</button>
                 </div>
             </div>
             <img src="./img/ia.png" alt="Uma pessoa olhando para a esquerda" class="container__imagem-pessoa" />
