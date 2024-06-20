@@ -1,3 +1,5 @@
+let listaDeNumerosEscolhidos = [];
+let limiteTentativas = 20;
 let numeroaleatorio = gerarNumeroAleatorio();
 let tentativas = 1;
 
@@ -5,11 +7,12 @@ function exibirTextoNaTela(tag, texto){
 
     let campo = document.querySelector(tag);
     campo.innerHTML = texto;
+    responsiveVoice.speak(texto, 'Brazilian Portuguese Female', {rate: 1.2});
 
 }
 
 const h1Original = function() { exibirTextoNaTela('h1', 'Jogo de adivinhação'); }
-const pOriginal = function() { exibirTextoNaTela('p', 'Escolha um número entre 1 e 200'); }
+const pOriginal = function() { exibirTextoNaTela('p', `Escolha um número entre 1 e ${limiteTentativas}`); }
 
 h1Original();
 pOriginal();
@@ -19,7 +22,7 @@ function verificarChute(){
     let chute = document.querySelector('input').value;
     let maior = (chute > numeroaleatorio);
 
-    if(chute === numeroaleatorio) {
+    if(chute == numeroaleatorio) {
         
         let palavraTentativa = tentativas > 1 ? 'tentativas' : 'tentativa'; 
         
@@ -40,10 +43,6 @@ function verificarChute(){
 
 }
 
-function gerarNumeroAleatorio(){
-    return parseInt(Math.random() * 200 + 1);
-}
-
 function limparCampo() {
 
     chute = document.querySelector('input');
@@ -51,9 +50,26 @@ function limparCampo() {
     
 }
 
+function gerarNumeroAleatorio(){
+    let numeroEscolhido = parseInt(Math.random() * limiteTentativas + 1);
+    let quantidadeDeElementos = listaDeNumerosEscolhidos.length;
+
+    if (quantidadeDeElementos == limiteTentativas) {
+        listaDeNumerosEscolhidos = [];
+    }
+
+    if (listaDeNumerosEscolhidos.includes(numeroEscolhido)) {
+        return gerarNumeroAleatorio();
+    } else {
+        listaDeNumerosEscolhidos.push(numeroEscolhido);
+        console.log(listaDeNumerosEscolhidos);
+        return numeroEscolhido;
+    }
+}
+
 function reiniciarJogo() {
-    
-    numeroSecreto = gerarNumeroAleatorio();
+
+    numeroaleatorio = gerarNumeroAleatorio();
     limparCampo();
     tentativas = 1;
 
