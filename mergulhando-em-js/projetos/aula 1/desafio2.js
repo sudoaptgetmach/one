@@ -5,7 +5,7 @@ let diadasemana = prompt('Qual é o dia da semana?');
 switch (diadasemana){
     case 'Sábado' || 'Domingo':
         alert('Bom final de semana!');
-            break;  
+        break;  
     default:
         alert('Boa semana!');
         break;        
