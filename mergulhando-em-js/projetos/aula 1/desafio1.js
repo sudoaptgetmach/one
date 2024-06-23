@@ -2,16 +2,16 @@
 
 alert('Boas vindas ao nosso site!');
 
-var nome = 'Lua';
-var idade = 25;
-var numeroDeVendas = 50;
-var saldoDisponivel = 1000;
+let nome = 'Lua';
+let idade = 25;
+let numeroDeVendas = 50;
+let saldoDisponivel = 1000;
 
 let mensagemDeErro = "Erro! Preencha todos os campos!";
 alert(mensagemDeErro);
 
-var nome = prompt('Qual é o seu nome?');
-var idade = prompt('Qual é sua idade?');
+nome = prompt('Qual é o seu nome?');
+idade = prompt('Qual é sua idade?');
 
     console.log("Nome: " + nome);
     console.log("Idade: " + idade);
