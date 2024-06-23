@@ -15,7 +15,7 @@ var idade = prompt('Qual é sua idade?');
 
     console.log("Nome: " + nome);
     console.log("Idade: " + idade);
-if (idade > 18) {
+if (idade => 18) {
     console.log('Você já pode tirar a habilitação!');
 } else {
     console.log('Você ainda não pode tirar a habilitação!');
