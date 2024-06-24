@@ -1,0 +1,9 @@
+version = 1
+
+exclude_patterns = [
+  "./funcoes-e-listas/js-main",
+  "./mergulhando-em-js/logica-js"
+]
+
+[[analyzers]]
+name = "javascript"
