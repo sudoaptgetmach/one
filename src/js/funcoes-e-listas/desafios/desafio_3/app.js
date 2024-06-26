@@ -25,8 +25,8 @@ function cotacaoDolar(real){
 
     const dolar = (real * 4.80);
 
-    let dolares = dolar >= 2 ? `dólares` : `dolar`;
-    let reais = real >= 2 ? `reais` : `real`;
+    let dolares = dolar >= 2 ? "dólares" : "dolar";
+    let reais = real >= 2 ? "reais" : "real";
     
     console.log(`${real} ${reais} em dólar são ${dolar} ${dolares}.`);
     
