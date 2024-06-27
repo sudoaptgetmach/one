@@ -1,10 +1,31 @@
 body {
-    background-color: black;
-    color: #f6f6f6;
+    background-color: #2C2B33;
+    color: #5448A0;
 }
 
-strong {
+.destaque {
 
-    color: #22d4fd;
+    color: #4D3ACA;
+
+}
+
+.destaque1 {
+
+    color: #ffffff;
+
+}
+
+span {
+
+    color: #ffffff;
+    border: 1px solid #22D4FD;
+    padding: 3px;
+
+}
+
+img {
+
+    position: fixed;
+    right: 5px;
 
 }
