@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #2C2B33;
+    color: #5448A0;
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.text {
+    padding: 20px;
+    background-color: #f4f4f4;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.destaque {
+    color: #4D3ACA;
+    font-weight: bold;
+}
+
+.destaque1 {
+    color: #ffffff;
+    background-color: #4D3ACA;
+    padding: 5px 10px;
+    border-radius: 3px;
+}
+
+span {
+    font-style: italic;
+}
