@@ -1,14 +1,29 @@
 * {
-    padding: 0;
-    margin: 0;
+    padding: 0px;
+    margin: 0px;
 }
 
 body {
-    background-color: white;
+    background-color: black;
+}
+
+p {
+    padding: 10px;
 }
 
 .texto-destaque {
 
     color: blueviolet;
+}
+
+.titulo-blog {
+    margin: 5px;
+    color: purple;
+
+}
+
+strong.urgente {
+
+    color: red;
 
 }
