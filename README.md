@@ -36,7 +36,7 @@ Instruções sobre como clonar, configurar e utilizar o repositório para estudo
 2. **Clone o Repositório**: Clone o repositório forkado para a sua máquina local. Isso permite que você trabalhe no projeto e faça alterações no código.
 
     ```
-    git clone https://github.com/seu-usuario/nome-do-repositorio.git
+    git clone https://github.com/sudoaptgetmach/one.git
     ```
 
 3. **Crie uma Branch**: Antes de fazer suas alterações, crie uma nova branch para elas. Isso ajuda a manter o controle das alterações e facilita a integração delas ao projeto principal.
