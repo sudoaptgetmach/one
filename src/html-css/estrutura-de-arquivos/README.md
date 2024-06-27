@@ -27,7 +27,7 @@ Este curso abrange desde os conceitos básicos de HTML e CSS até técnicas avan
 
 Para mais informações sobre o curso, como se inscrever e o que esperar ao concluir, sinta-se à vontade para entrar em contato.
 
-- **Oracle Next Education**: [[Link do Instagram](https://www.oracle.com/br/education/oracle-next-education/)](#)
+- **Oracle Next Education**: [Oracle Next Education](https://www.oracle.com/br/education/oracle-next-education/)
 - **Meu GitHub**: [sudoaptgetmach](https://github.com/sudoaptgetmach)
 
 Este curso é uma excelente oportunidade para quem deseja iniciar ou aprimorar suas habilidades em desenvolvimento web, aprendendo a criar sites do zero com HTML e CSS, JavaScript e conhecimentos avançados na sua trilha específica (BackEnd ou FrontEnd).
