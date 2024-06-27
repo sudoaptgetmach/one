@@ -59,7 +59,7 @@ Instruções sobre como clonar, configurar e utilizar o repositório para estudo
     git push origin nome-da-sua-branch
     ```
 
-7. **Crie um Pull Request**: No GitHub, vá para o repositório original do qual você fez fork e clique em "Pull Request" para enviar suas alterações para a revisão dos mantenedores do projeto. Certifique-se de descrever suas alterações e o motivo delas.
+7. **Crie um Pull Request**: No GitHub, vá para o [repositório original](https://github.com/sudoaptgetmach/one/) do qual você fez fork e clique em "Pull Request" para enviar suas alterações para a revisão. Certifique-se de descrever suas alterações e o motivo delas.
 
 Lembre-se, contribuições não se limitam apenas a código. Atualizações na documentação, relatórios de bugs, e sugestões de melhorias também são formas valiosas de contribuir. :D
 
