@@ -31,8 +31,6 @@ Instruções sobre como clonar, configurar e utilizar o repositório para estudo
 
 ## Contribuições
 
-Agradecemos qualquer contribuição à este repositório! Se você gostaria de contribuir, por favor, siga os passos abaixo:
-
 1. **Fork o Repositório**: Inicie fazendo um fork do repositório. Isso cria uma cópia do repositório na sua conta do GitHub, permitindo que você faça alterações sem afetar o repositório original.
 
 2. **Clone o Repositório**: Clone o repositório forkado para a sua máquina local. Isso permite que você trabalhe no projeto e faça alterações no código.
@@ -62,8 +60,6 @@ Agradecemos qualquer contribuição à este repositório! Se você gostaria de c
     ```
 
 7. **Crie um Pull Request**: No GitHub, vá para o repositório original do qual você fez fork e clique em "Pull Request" para enviar suas alterações para a revisão dos mantenedores do projeto. Certifique-se de descrever suas alterações e o motivo delas.
-
-8. **Aguarde Feedback**: Os mantenedores do projeto irão revisar suas alterações. Esteja aberto a feedback e pronto para fazer ajustes se necessário.
 
 Lembre-se, contribuições não se limitam apenas a código. Atualizações na documentação, relatórios de bugs, e sugestões de melhorias também são formas valiosas de contribuir. :D
 
