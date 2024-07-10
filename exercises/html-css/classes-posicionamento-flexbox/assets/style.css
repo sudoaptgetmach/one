@@ -11,6 +11,14 @@ p {
     padding: 10px;
 }
 
+.apresentacao {
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
 .texto-destaque {
 
     color: blueviolet;
@@ -18,8 +26,8 @@ p {
 
 .titulo-blog {
     margin: 5px;
+    border: 2px solid white;
     color: purple;
-
 }
 
 strong.urgente {

@@ -12,6 +12,13 @@ body {
     padding: 20px;
 }
 
+.apresentacao {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
 .destaque {
     color: #22D4FD;
     font-weight: bold;
