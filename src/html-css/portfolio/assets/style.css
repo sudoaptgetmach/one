@@ -1,27 +1,49 @@
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
 
-
 * {
     margin: 0;
     padding: 0;
 }
 
 body {
+    box-sizing: border-box;
     background-color: #000000;
     color: #F6F6F6;
-    font-family: 'Arial', sans-serif;
-    height: 100vh;
-    line-height: 1.6;
-    padding: 20px;
 }
 
-header {
+a {
+    text-decoration: none;
+}
+
+.header {
+    padding: 2% 0% 0% 10%;
+}
+
+.header__menu {
     display: flex;
-    align-items: center;
+    gap: 80px;
+}
+
+.header__menu__home {
+
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color:#22D4FD;
+
+}
+
+.header__menu__aboutme {
+
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color:#22D4FD;
+
 }
 
 .apresentacao {
-    margin: 10%;
+    padding: 5% 15%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -44,6 +66,11 @@ header {
     font-family: 'Montserrat', sans-serif;
 }
 
+.destaque {
+    color: #22D4FD;
+    font-weight: bold;
+}
+
 .apresentacao__links {
     display: flex;
     align-items: center;
@@ -59,6 +86,9 @@ header {
 }
 
 .apresentacao__links__link {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
     color: #F6F6F6;
     width: 378px;
     text-align: center;
@@ -71,13 +101,22 @@ header {
     font-family: 'Montserrat', sans-serif;
 }
 
-.destaque {
-    color: #22D4FD;
-    font-weight: bold;
+.apresentacao__links__link:hover {
+
+    background-color: #272727;
+
 }
 
-.destaque1 {
-    color: #ffffff;
-    padding: 5px 10px;
-    border-radius: 3px;
+.nome:hover {
+    color: aqua;
+}
+
+.footer {
+
+    color: #000000;
+    background-color: #22D4FD;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    padding: 24px;
+
 }
