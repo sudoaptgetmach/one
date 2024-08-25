@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terminal</title>
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+    <div id="terminalContainer" class="container">
+        <div class="terminal-header">
+            <div class="terminal-buttons">
+                <div class="button close" onclick="closeTerminal()"></div>
+                <div class="button minimize" onclick="minimizeTerminal()"></div>
+                <div class="button maximize" onclick="maximizeTerminal()"></div>
+            </div>
+            <div class="terminal-title">Terminal</div>
+        </div>
+        <div id="terminalBody" class="terminal-body">
+            <div class="terminal-line">
+                <span class="prompt">$</span>
+                <textarea id="terminalInput" placeholder="Digite um comando ou mensagem aqui..." rows="1" onkeydown="handleKeyDown(event)"></textarea>
+            </div>
+            <div class="error" id="error">A mensagem só pode conter letras minúsculas e sem acento.</div>
+        </div>
+    </div>
+    <div id="reopenButton" onclick="reopenTerminal()">Reabrir Terminal</div>
+    <script src="app.js"></script>
+</body>
+</html>
